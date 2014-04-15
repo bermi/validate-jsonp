@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+require("jsonp-client")(process.argv[2], function (err) {
+  if (err) {
+    console.log("INVALID");
+    console.error(err.message);
+    process.exit(0);
+  }
+  console.log("VALID");
+});

@@ -1,0 +1,21 @@
+{
+  "name": "validate-jsonp",
+  "version": "0.0.0",
+  "description": "Command line utility for validating JSONp documents",
+  "homepage": "https://github.com/bermi/validate-jsonp",
+  "main": "index.js",
+  "keywords": [
+    "jsonp",
+    "cli",
+    "validate",
+    "validation"
+  ],
+  "bin": {
+    "validate-jsonp": "./validate-jsonp"
+  },
+  "author": "Bermi Ferrer <bermi@bermilabs.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jsonp-client": "^0.3.3"
+  }
+}
