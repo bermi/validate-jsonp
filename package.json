@@ -1,6 +1,6 @@
 {
   "name": "validate-jsonp",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Command line utility for validating JSONp documents",
   "homepage": "https://github.com/bermi/validate-jsonp",
   "main": "index.js",
